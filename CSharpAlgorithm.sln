@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01-1. List A+과제", "01-1
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Linked List", "02. Linked List\02. Linked List.csproj", "{D2522FB6-632B-4D78-9272-C7AC72820D39}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02-1 Linked List 요세푸스 순열 문제", "02-1 Linked List 요세푸스 순열 문제\02-1 Linked List 요세푸스 순열 문제.csproj", "{9156F907-01FA-4AAF-846C-8F80FA6FC9C1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{D2522FB6-632B-4D78-9272-C7AC72820D39}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D2522FB6-632B-4D78-9272-C7AC72820D39}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D2522FB6-632B-4D78-9272-C7AC72820D39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9156F907-01FA-4AAF-846C-8F80FA6FC9C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9156F907-01FA-4AAF-846C-8F80FA6FC9C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9156F907-01FA-4AAF-846C-8F80FA6FC9C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9156F907-01FA-4AAF-846C-8F80FA6FC9C1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
