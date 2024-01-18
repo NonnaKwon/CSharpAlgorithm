@@ -17,6 +17,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05. Tree", "05. Tree\05. Tr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. Heap", "06. Heap\06. Heap.csproj", "{0C4C7592-4C37-4211-806C-DE0951EABFC3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07. Hash Table", "07. Hash Table\07. Hash Table.csproj", "{086AB697-068A-47F3-8607-5D381323FC6B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{0C4C7592-4C37-4211-806C-DE0951EABFC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0C4C7592-4C37-4211-806C-DE0951EABFC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0C4C7592-4C37-4211-806C-DE0951EABFC3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{086AB697-068A-47F3-8607-5D381323FC6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{086AB697-068A-47F3-8607-5D381323FC6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{086AB697-068A-47F3-8607-5D381323FC6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{086AB697-068A-47F3-8607-5D381323FC6B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
