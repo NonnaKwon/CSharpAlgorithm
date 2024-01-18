@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03-2 괄호 검사기", "03
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03-3. 작업 프로세스", "03-3. 작업 프로세스\03-3. 작업 프로세스.csproj", "{2E55BBF4-F1C1-43D9-9A98-DC18555E2E68}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07-1. Hash Table A+ 과제", "07-1. Hash Table A+ 과제\07-1. Hash Table A+ 과제.csproj", "{2B28E3C9-6204-436E-B457-10346F33B1D6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{2E55BBF4-F1C1-43D9-9A98-DC18555E2E68}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2E55BBF4-F1C1-43D9-9A98-DC18555E2E68}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2E55BBF4-F1C1-43D9-9A98-DC18555E2E68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B28E3C9-6204-436E-B457-10346F33B1D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B28E3C9-6204-436E-B457-10346F33B1D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B28E3C9-6204-436E-B457-10346F33B1D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B28E3C9-6204-436E-B457-10346F33B1D6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
