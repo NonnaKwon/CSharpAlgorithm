@@ -13,12 +13,12 @@
                 cheatDic.Add("Win", ThereIsNoCowLevel);
             }
 
-            public void Run(string cheatKey)
+            public void Run(string cheatKey) 
             {
-                if(cheatDic.ContainsKey(cheatKey))
-                    cheatDic[cheatKey].Invoke();
-                else
-                    Console.WriteLine("존재하지 않는 치트키");
+                //cheatDic.TryGetValue(cheatKey, out Action a);
+                //왜 이건 예외가 뜨지 
+                cheatDic[cheatKey]?.Invoke();
+                //a?.Invoke();
             }
 
             public void ShowMeTheMoney()
