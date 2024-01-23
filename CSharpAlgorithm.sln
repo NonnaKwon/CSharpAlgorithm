@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07. Hash Table", "07. Hash 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09. Sort", "09. Sort\09. Sort.csproj", "{87B73072-F03B-431C-BAFF-A401DF7EEA5E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10. Search", "10. Search\10. Search.csproj", "{4C66448D-0BDC-42B1-921E-FB7CA8539C4F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{87B73072-F03B-431C-BAFF-A401DF7EEA5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{87B73072-F03B-431C-BAFF-A401DF7EEA5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{87B73072-F03B-431C-BAFF-A401DF7EEA5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C66448D-0BDC-42B1-921E-FB7CA8539C4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C66448D-0BDC-42B1-921E-FB7CA8539C4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C66448D-0BDC-42B1-921E-FB7CA8539C4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C66448D-0BDC-42B1-921E-FB7CA8539C4F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
