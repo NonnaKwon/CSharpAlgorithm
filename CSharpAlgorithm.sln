@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10. Graph", "10. Graph\10. 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10. 그래프 인접행렬 표현", "10. 그래프 인접행렬 표현\10. 그래프 인접행렬 표현.csproj", "{C6F0D5BC-2572-4553-B5D3-1B0701311746}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10-1. BFS와 DFS", "10-1. BFS와 DFS\10-1. BFS와 DFS.csproj", "{EC240597-CA85-4665-A981-62CE48CC29C0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{C6F0D5BC-2572-4553-B5D3-1B0701311746}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C6F0D5BC-2572-4553-B5D3-1B0701311746}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C6F0D5BC-2572-4553-B5D3-1B0701311746}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC240597-CA85-4665-A981-62CE48CC29C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC240597-CA85-4665-A981-62CE48CC29C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC240597-CA85-4665-A981-62CE48CC29C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC240597-CA85-4665-A981-62CE48CC29C0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
