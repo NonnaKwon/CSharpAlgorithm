@@ -40,6 +40,63 @@ namespace _10._Search
             {0,132,INF,545,INF },
         };
 
+        public static void DFS(bool[,] graph,int start,out bool[] visited,out int[] parents)
+        {
+            visited = new bool[graph.GetLength(0)];
+            parents = new int[graph.GetLength(0)];
+
+            for(int i=0;i<graph.GetLength(0);i++)
+            {
+                visited[i] = false;
+                parents[i] = -1;
+            }
+            SearchNode(graph, start, visited, parents);
+        }
+
+        public static void SearchNode(bool[,] graph, int start,bool[] visited,int[] parents)
+        {
+            visited[start] = true;
+            for(int i=0;i<graph.GetLength(0);i++)
+            {
+                if (graph[start,i] &&
+                    visited[i]) //연결되어있는 정점이면서, 방문한적 없는 정점
+                {
+                    parents[i] = start;
+                    SearchNode(graph,i, visited, parents);
+                }
+            }
+        }
+
+
+        public static void BFS(bool[,] graph, int start, out bool[] visited, out int[] parents)
+        {
+            visited = new bool[graph.GetLength(0)];
+            parents = new int[graph.GetLength(0)];
+
+            for (int i = 0; i < graph.GetLength(0); i++)
+            {
+                visited[i] = false;
+                parents[i] = -1;
+            }
+
+            Queue<int> queue = new Queue<int>();
+            queue.Enqueue(start);
+            visited[start] = true;
+
+            while(queue.Count > 0 )
+            {
+                int next = queue.Dequeue();
+                for(int i=0;i<graph.GetLength(0);i++)
+                {
+                    if (graph[start,i] && !visited[i])
+                    {
+                        visited[i] = true;
+                        parents[i] = next;
+                        queue.Enqueue(i);
+                    }
+                }
+            }
+        }
 
     }
 }
