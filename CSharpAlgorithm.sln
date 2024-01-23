@@ -23,6 +23,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07-1. Hash Table A+ 과제"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09.Sorting", "09.Sorting\09.Sorting.csproj", "{527FAABE-579D-48C9-823A-0A89026B3DA0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10. Graph", "10. Graph\10. Graph.csproj", "{342BCCC7-CACA-4FC5-A0C7-92720F8080A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10. 그래프 인접행렬 표현", "10. 그래프 인접행렬 표현\10. 그래프 인접행렬 표현.csproj", "{C6F0D5BC-2572-4553-B5D3-1B0701311746}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +73,14 @@ Global
 		{527FAABE-579D-48C9-823A-0A89026B3DA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{527FAABE-579D-48C9-823A-0A89026B3DA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{527FAABE-579D-48C9-823A-0A89026B3DA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{342BCCC7-CACA-4FC5-A0C7-92720F8080A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{342BCCC7-CACA-4FC5-A0C7-92720F8080A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{342BCCC7-CACA-4FC5-A0C7-92720F8080A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{342BCCC7-CACA-4FC5-A0C7-92720F8080A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6F0D5BC-2572-4553-B5D3-1B0701311746}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6F0D5BC-2572-4553-B5D3-1B0701311746}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6F0D5BC-2572-4553-B5D3-1B0701311746}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6F0D5BC-2572-4553-B5D3-1B0701311746}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
