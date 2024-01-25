@@ -15,13 +15,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04. Queue", "04. Queue\04. 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05. Tree", "05. Tree\05. Tree.csproj", "{5FFF65FD-7DB2-46C3-ACDC-C08E469B7099}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. Heap", "06. Heap\06. Heap.csproj", "{0C4C7592-4C37-4211-806C-DE0951EABFC3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06. Heap", "06. Heap\06. Heap.csproj", "{0C4C7592-4C37-4211-806C-DE0951EABFC3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07. Hash Table", "07. Hash Table\07. Hash Table.csproj", "{086AB697-068A-47F3-8607-5D381323FC6B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07. Hash Table", "07. Hash Table\07. Hash Table.csproj", "{086AB697-068A-47F3-8607-5D381323FC6B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09. Sort", "09. Sort\09. Sort.csproj", "{87B73072-F03B-431C-BAFF-A401DF7EEA5E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "09. Sort", "09. Sort\09. Sort.csproj", "{87B73072-F03B-431C-BAFF-A401DF7EEA5E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10. Search", "10. Search\10. Search.csproj", "{4C66448D-0BDC-42B1-921E-FB7CA8539C4F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10. Search", "10. Search\10. Search.csproj", "{4C66448D-0BDC-42B1-921E-FB7CA8539C4F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "11. Dijkstra Algorithm", "11. Dijkstra Algorithm\11. Dijkstra Algorithm.csproj", "{A560B47D-A784-4580-8E35-A80D6E9D1BDC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12. PathFinding", "12. PathFinding\12. PathFinding.csproj", "{070C3C01-5C2C-4374-8896-90086E5E3A05}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +73,14 @@ Global
 		{4C66448D-0BDC-42B1-921E-FB7CA8539C4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4C66448D-0BDC-42B1-921E-FB7CA8539C4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4C66448D-0BDC-42B1-921E-FB7CA8539C4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A560B47D-A784-4580-8E35-A80D6E9D1BDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A560B47D-A784-4580-8E35-A80D6E9D1BDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A560B47D-A784-4580-8E35-A80D6E9D1BDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A560B47D-A784-4580-8E35-A80D6E9D1BDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{070C3C01-5C2C-4374-8896-90086E5E3A05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{070C3C01-5C2C-4374-8896-90086E5E3A05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{070C3C01-5C2C-4374-8896-90086E5E3A05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{070C3C01-5C2C-4374-8896-90086E5E3A05}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
